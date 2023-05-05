@@ -18,8 +18,7 @@ if (isset($_GET["cadastrar"])) {
         if (mysqli_query($conn, $sql)) {
             print_r("<script>alert('Cadastro Realizado!!!')</script>");
 
-            // Aqui vai chamar a pagina informada e colocaremos depois de location:index.php ?msg=1 para
-            //header('location:index.php?msg=1');  
+            // Aqui vai chamar a pagina informada e colocaremos depois de location:index.php ?msg=1 para  
             header('location:index.php?msg=1');
         } else {
             print_r("<script>alert('Erro!!!')</script>");

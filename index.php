@@ -385,15 +385,6 @@ include("finalizar_tarefa.php");
   </div>
 
   <script>
-    /*
-    var myModalEl = document.getElementById('exampleModa2')
-    let checkFinalizar = document.getElementsByClassName('form-check-input')
-    myModalEl.addEventListener('hidden.bs.modal', function(event) {
-      for (let i = 0; i < checkFinalizar.length; i++) {
-        checkFinalizar[i].checked = false
-      }
-    })
-*/
 
     function Resetar() {
       let checkFinalizar = document.getElementsByClassName('form-check-input')

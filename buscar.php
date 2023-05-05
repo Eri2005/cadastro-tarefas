@@ -66,11 +66,3 @@ and t.status_tarefa = '$tarefaFinalizada' limit $inicio, $quntPorPagina";
 
 // Salvando em uma variavel o resultado da solicitação
 $result = mysqli_query($conn, $sqlPaginacao);
-
-
-/* Comparando datas
-
-strtotime()
-
-https://pt.stackoverflow.com/questions/33469/como-comparar-datas-em-php
-*/
